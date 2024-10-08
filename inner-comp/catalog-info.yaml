@@ -10,7 +10,7 @@ metadata:
   annotations:
     github.com/project-slug: Mahesh/inner-comp
 spec:
-  type: Service
+  type: Library
   lifecycle: production
   owner: Mahesh
   implementsApis:
