@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: inner-comp
+  description: This is a sample component generated from the inner-sourcing template.
+  proimary owner name: Mahesh
+  proimary owner email: mahesh.gowripatnam@hcl.com
+  secondaty owner name: Test
+  secondary owner email: user1@dmmp.com
+  annotations:
+    github.com/project-slug: Mahesh/inner-comp
+spec:
+  type: Service
+  lifecycle: production
+  owner: Mahesh
+  implementsApis:
+    - my-api
+  system: examples
+  repository:
+    type: git
+    url: https://github.com/maheshorg08/inner-test
+    path: /
