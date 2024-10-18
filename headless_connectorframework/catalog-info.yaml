@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: headless_connectorframework
+  email: mahesh.gowripatnam@hcl.com
+  links:
+    - title: Readme
+      url: https://github01.hclpnp.com/SPARC-Development-Lab/innersourcing-headless_connectorframework/blob/master/README.md
+  tags:
+    - python
+    - apache-nifi
+    - nifi-registry
+  contributionWanted: Bugfixes, Features, Enhancement, Infrastructure
+  description: Connectorframework service executed using headless Nifi
+  annotations:
+    backstage.io/source-location: url:https://github01.hclpnp.com/api/v3/repos/SPARC-Development-Lab/innersourcing-headless_connectorframework
+spec:
+  type: Service
+  lifecycle: Production
+  owner: innersourcing-headless_connectorframework
+  implementsApis:
+    - my-api
+  system: production
+  repository:
+    type: github01
+    url: https://github01.hclpnp.com/api/v3/repos/SPARC-Development-Lab/innersourcing-headless_connectorframework
+    path: /
