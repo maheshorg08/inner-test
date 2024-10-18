@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Cognitive Search
+  email: mahesh.gowripatnam@hcl.com
+  links:
+    - title: Readme
+      url: https://github01.hclpnp.com/SPARC-Development-Lab/innersourcing-cs/blob/Developer/README.md
+  tags:
+    - python
+    - machine-learning
+  contributionWanted: Bugfixes, Features, Enhancement, Infrastructure
+  description: CognitiveSearch is an application that applies Artificial
+    Intelligence (AI)/Machine Learning ( ML) on user\u2019s search terms to
+    preserve the context of each query, unlike traditional keyword based search
+    engines.
+  annotations:
+    backstage.io/source-location: url:https://github01.hclpnp.com/api/v3/repos/SPARC-Development-Lab/innersourcing-cs
+spec:
+  type: Website
+  lifecycle: Production
+  owner: innersourcing-cs
+  implementsApis:
+    - my-api
+  system: production
+  repository:
+    type: github01
+    url: https://github01.hclpnp.com/api/v3/repos/SPARC-Development-Lab/innersourcing-cs
+    path: /
