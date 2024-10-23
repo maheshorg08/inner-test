@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: innersourcingMaheshTest
+  email: mahesh.gowripatnam@hcltech.com
+  secondaryEmail: mahesh.gowripatnam@gmail.com
+  links:
+    - url: http://localhost:3000/catalog/default/component/innersourcingMaheshTest
+      title: Dashboard
+      icon: dashboard
+  tags:
+    - python
+    - apache-nifi
+    - nifi-registry
+  contributionWanted: Security, Infrastructure, features, Bugfixes
+  annotations:
+    backstage.io/source-location: url:https://github.com/maheshorg08/test-org-repo
+spec:
+  type: Service
+  lifecycle: Production
+  owner: innersourcing
+  implementsApis:
+    - my-api
+  system: production
+  repository:
+    type: github
+    url: https://github.com/maheshorg08/test-org-repo
+    path: /
