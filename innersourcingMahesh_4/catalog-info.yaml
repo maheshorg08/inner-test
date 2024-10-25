@@ -1,0 +1,32 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: innersourcingMahesh_4
+  primaryEmail: mahesh.gowripatnam@gmail.com
+  primaryName: GMM
+  secondaryEmail: mahigowripatnam@gmail.com
+  secondaryName: Mahesh1
+  links:
+    - title: Readme
+      url: https://github01.hclpnp.com/SPARC-Development-Lab/innersourcing-keycloak_oneclick_solution/blob/master/README.md
+  tags:
+    - python
+    - apache-nifi
+    - nifi-registry
+  contributionWanted: Security, Infrastructure, features, Bugfixes
+  description: This project is a platform which can be used as a service to send
+    data from one source to other using apache nifi capabilities.
+  installerLocation: https://github.com/maheshorg08/test-org-repo
+  annotations:
+    backstage.io/source-location: url:https://github.com/maheshorg08/test-org-repo
+spec:
+  type: Service
+  lifecycle: Production
+  owner: GMM
+  implementsApis:
+    - my-api
+  system: production
+  repository:
+    type: github
+    url: https://github.com/maheshorg08/test-org-repo
+    path: /
