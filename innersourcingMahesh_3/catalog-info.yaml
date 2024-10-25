@@ -1,0 +1,31 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: innersourcingMahesh_3
+  primaryEmail: mahesh.gowripatnam@gmail.com
+  primaryName: Mahesh
+  secondaryEmail: mahigowripatnam@gmail.com
+  secondaryName: Mahesh1
+  links:
+    - title: asdad
+      url: https://github01.hclpnp.com/SPARC-Development-Lab/innersourcing-connectorframework_2.0/blob/Developer/README.md
+  tags:
+    - python
+    - apache-nifi
+    - nifi-registry
+  contributionWanted: Security, Infrastructure, features, Bugfixes
+  description: This project is a platform which can be used as a service to send
+    data from one source to other using apache nifi capabilities.
+  annotations:
+    backstage.io/source-location: url:https://github.com/maheshorg08/test-org-repo
+spec:
+  type: Service
+  lifecycle: Production
+  owner: Mahesh
+  implementsApis:
+    - my-api
+  system: production
+  repository:
+    type: github
+    url: https://github.com/maheshorg08/test-org-repo
+    path: /
