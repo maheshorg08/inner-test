@@ -1,0 +1,34 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: innersourcingMahesh_7
+  namespace: inner-sourcing
+  primaryEmail: mahesh.gowripatnam@gmail.com
+  primaryName: Mahesh
+  secondaryEmail: mahigowripatnam@gmail.com
+  secondaryName: Mahesh1
+  links:
+    - url: http://localhost:3000/catalog/default/component/innersourcingMahesh_7
+      title: Dashboard
+      icon: dashboard
+  tags:
+    - python
+    - apache-nifi
+    - nifi-registry
+  contributionWanted: Security, Infrastructure, features, Bugfixes
+  description: This project is a platform which can be used as a service to send
+    data from one source to other using apache nifi capabilities.
+  installerLocation: ""
+  annotations:
+    backstage.io/source-location: url:https://github.com/maheshorg08/test-org-repo
+spec:
+  type: Service
+  lifecycle: Production
+  owner: Mahesh
+  implementsApis:
+    - my-api
+  system: production
+  repository:
+    type: github
+    url: https://github.com/maheshorg08/test-org-repo
+    path: /
