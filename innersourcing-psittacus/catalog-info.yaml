@@ -1,0 +1,35 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: innersourcing-psittacus
+  namespace: inner-sourcing
+  primaryEmail: mahesh.g.owripatnam@gmail.com
+  primaryName: psittacus
+  secondaryEmail: ""
+  secondaryName: ""
+  links:
+    - url: http://localhost:3000/catalog/inner-sourcing/component/innersourcing-psittacus
+      title: Dashboard
+      icon: dashboard
+  tags:
+    - reactjs
+    - expressjs
+    - mongodb
+    - nodejs
+    - javascript
+  contributionWanted: Bugfixes, Features, Enhancement, Infrastructure
+  description: chatapp - MERN Architecture (MongoDB, ExpressJS, ReactJS, NodeJS + socket.io)
+  installerLocation: ""
+  annotations:
+    backstage.io/source-location: url:https://github01.hclpnp.com/api/v3/repos/SPARC-Development-Lab/innersourcing-psittacus
+spec:
+  type: Service
+  lifecycle: Production
+  owner: psittacus
+  implementsApis:
+    - my-api
+  system: production
+  repository:
+    type: github01
+    url: https://github01.hclpnp.com/api/v3/repos/SPARC-Development-Lab/innersourcing-psittacus
+    path: /
