@@ -24,7 +24,7 @@ metadata:
   annotations:
     backstage.io/source-location: url:https://github.com/maheshorg08/test-org-repo
     grafana/tag-selector: "rule-test"
-    grafana/dashboard-selector: myTestDashboard
+    grafana/dashboard-selector: 'service'
 spec:
   type: Service
   lifecycle: Production
