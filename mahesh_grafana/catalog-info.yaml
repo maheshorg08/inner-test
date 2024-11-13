@@ -1,0 +1,38 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mahesh_grafana
+  namespace: inner-sourcing
+  primaryEmail: mahesh.g.owripatnam@gmail.com
+  primaryName: Mahesh_1
+  secondaryEmail: ""
+  secondaryName: ""
+  links:
+    - url: http://localhost:3001/catalog/inner-sourcing/component/mahesh_grafana
+      title: Dashboard
+      icon: dashboard
+  tags:
+    - python
+    - apache-nafi
+    - jolt-transformation
+    - javascript
+  contributionWanted: Bugfixes, Features, Enhancement, Infrastructure
+  description: NLU is a bot service that will be reponed to users' queries related
+    to HCL internal policy and procedure.It has 2 services and they are
+    connected via a wrapper service called middleware,Transactional and QnA
+  installerLocation: ""
+  annotations:
+    backstage.io/source-location: url:https://github.com/maheshorg08/test-org-repo
+    grafana/tag-selector: "rule-test "
+    grafana/dashboard-selector: myTestDashboard
+spec:
+  type: Service
+  lifecycle: Production
+  owner: Mahesh_1
+  implementsApis:
+    - my-api
+  system: production
+  repository:
+    type: github
+    url: https://github.com/maheshorg08/test-org-repo
+    path: /
