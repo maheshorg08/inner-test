@@ -23,7 +23,7 @@ metadata:
   annotations:
     backstage.io/source-location: url:https://github.com/maheshorg08/test-org-repo
     grafana/alert-label-selector: alertname=test
-    grafana/dashboard-selector: title @> 'mytestdashboard'
+    grafana/dashboard-selector: title = mytestdashboard
 spec:
   type: Service
   lifecycle: Production
