@@ -29,7 +29,7 @@ spec:
   lifecycle: Production
   owner: Mahesh
   coder:
-    templateName: devcontainers
+    templateName: docker
     mode: auto
     params:
       repo: custom
