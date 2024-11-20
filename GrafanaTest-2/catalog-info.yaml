@@ -1,0 +1,43 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GrafanaTest-2
+  namespace: inner-sourcing
+  primaryEmail: mahesh.gowripatnam@gmail.com
+  primaryName: Mahesh
+  secondaryEmail: ""
+  secondaryName: ""
+  links:
+    - url: http://localhost:3001/catalog/inner-sourcing/component/GrafanaTest-2
+      title: Dashboard
+      icon: dashboard
+  tags:
+    - python
+    - apache-nafi
+    - jolt-transformation
+    - javascript
+  contributionWanted: Bugfixes, Features, Enhancement, Infrastructure
+  description: This project is a platform which can be used as a service to send
+    data from one source to other using apache nifi capabilities.
+  installerLocation: ""
+  annotations:
+    backstage.io/source-location: url:https://github.com/maheshorg08/inner-test
+    grafana/tag-selector: environment=production
+    grafana/dashboard-selector: uid=ce3m0mkro3ksga
+spec:
+  type: Service
+  lifecycle: Production
+  owner: Mahesh
+  coder:
+    templateName: docker
+    mode: auto
+    params:
+      repo: custom
+      region: us-pittsburgh
+  implementsApis:
+    - my-api
+  system: production
+  repository:
+    type: github
+    url: https://github.com/maheshorg08/inner-test
+    path: /
