@@ -22,7 +22,6 @@ metadata:
   installerLocation: ""
   annotations:
     backstage.io/source-location: url:https://github.com/maheshorg08/inner-test
-    grafana/tag-selector: grafanacloud
     grafana/dashboard-selector: grafanacloud
 spec:
   type: Service
