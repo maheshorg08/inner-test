@@ -23,6 +23,7 @@ metadata:
   annotations:
     backstage.io/source-location: url:https://github.com/maheshorg08/inner-test
     grafana/dashboard-selector: grafanacloud
+    grafana/alert-label-selector: name=A-series
 spec:
   type: Service
   lifecycle: Production
