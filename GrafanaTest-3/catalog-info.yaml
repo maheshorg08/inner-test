@@ -24,7 +24,7 @@ metadata:
     backstage.io/source-location: url:https://github.com/maheshorg08/inner-test
     grafana/dashboard-selector: grafanacloud
     grafana/alert-label-selector: name=A-series
-    grafana/overview-dashboard: http://localhost:8080/d/ee4lwr0zp2io0b/my-test-dashboard?orgId=1&from=now-1h&to=now&timezone=browser
+    grafana/overview-dashboard: http://127.0.0.1:8080/d/ee4lwr0zp2io0b/my-test-dashboard?orgId=1&from=now-1h&to=now&timezone=browser
 spec:
   type: Service
   lifecycle: Production
